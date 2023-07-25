@@ -1,6 +1,7 @@
 import Header from "./components/header/header";
 import "./App.css";
 import Disc from "./components/Disc/disc";
+import Hero from "./components/hero/hero";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       {""}
       <Header />
       <Disc/>
+      <Hero/>
     </div>
   );
 };

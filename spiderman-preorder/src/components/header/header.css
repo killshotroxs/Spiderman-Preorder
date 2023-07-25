@@ -1,7 +1,7 @@
-.main-container{
-    display: grid;
-    grid-template-rows: 90px 90px;
-    grid-template-columns: 300px 1550px; 
+.main-container {
+  display: grid;
+  grid-template-rows: 90px ;
+  grid-template-columns: 300px 1550px;
 }
 
 .logo {
@@ -12,23 +12,31 @@
   mix-blend-mode: multiply;
 }
 
-.header-container{
-display: flex;
-justify-content:flex-end;
-align-items: center;
-vertical-align: top;
-margin: 0;
-gap: 51px;
-color: #000;
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  vertical-align: top;
+  margin: 0;
+  gap: 51px;
+  color: #000;
+  font-family: Inter;
+  font-size: 39.92px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+}
+
+h3 {
+  margin-right: 10px;
+}
+
+.pricing{
+    color: #F41C1C;
 font-family: Inter;
-font-size: 39.92px;
+font-size: 55.92px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-margin-top: 0px;
-}
-
-h3{
-
-    margin-right: 10px;
 }

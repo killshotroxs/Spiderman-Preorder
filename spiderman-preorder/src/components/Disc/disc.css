@@ -1,4 +1,56 @@
 .disc {
-  width: 795px;
+  max-width: max-content;
   height: 750px;
 }
+
+.testing {
+  display: grid;
+  grid-template-rows: 700px ;
+  grid-template-columns: 575px 700px 500px;
+}
+
+h1 {
+  display: flex;
+  width: 600px;
+  height: 300px;
+  text-align: left;
+  margin-left: 0px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Holtwood One SC;
+  font-size: 90.875px;
+  font-family: "Holtwood One SC", serif;
+}
+
+.orderbutton {
+   
+    margin-top: 350px;
+    margin-right: 250px;
+    outline: none;
+    cursor: pointer;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: #f01a1a;
+    height: 72px;
+    width: 350px;
+    :hover{
+        transform: scale(1.04);
+        background-color: #c514e4;
+    }
+
+  }
+  
+
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Open+Sans:wght@300&family=Roboto:wght@400;700&display=swap");
