@@ -1,7 +1,7 @@
 .main-container {
   display: grid;
   grid-template-rows: 90px ;
-  grid-template-columns: 300px 1550px;
+  grid-template-columns: 300px 1200px;
 }
 
 .logo {

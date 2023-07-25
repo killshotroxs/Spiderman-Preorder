@@ -1,18 +1,18 @@
 .disc {
   max-width: max-content;
-  height: 750px;
+  height: 600px;
 }
 
 .testing {
   display: grid;
-  grid-template-rows: 700px ;
-  grid-template-columns: 575px 700px 500px;
+  grid-template-rows: 500px ;
+  grid-template-columns: 550px 550px 400px;
 }
 
 h1 {
   display: flex;
   width: 600px;
-  height: 300px;
+  height: 200px;
   text-align: left;
   margin-left: 0px;
   flex-direction: column;
@@ -26,8 +26,7 @@ h1 {
 
 .orderbutton {
    
-    margin-top: 350px;
-    margin-right: 250px;
+    margin-top: 300px;
     outline: none;
     cursor: pointer;
     line-height: 1;
@@ -44,7 +43,7 @@ h1 {
     color: #fff;
     background-color: #f01a1a;
     height: 72px;
-    width: 350px;
+    width: 180px;
     :hover{
         transform: scale(1.04);
         background-color: #c514e4;

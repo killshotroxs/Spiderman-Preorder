@@ -21,7 +21,7 @@ const Header = () => {
     <div className="main-container">
       <img
         className="logo"
-        src="../../../public/images/logo.png" 
+        src="../../../public/images/logo.png"
         alt="marvel logo"
         onClick={handleLogoClick}
       />
