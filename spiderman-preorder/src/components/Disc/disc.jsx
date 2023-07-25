@@ -1,4 +1,3 @@
-import React from "react";
 import "./disc.css";
 
 const Disc = () => {
