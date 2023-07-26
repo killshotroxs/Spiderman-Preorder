@@ -53,42 +53,27 @@ h1 {
 
 @media only screen and (max-width: 767px) {
   .disc {
-    max-width: fit-content;
-    height: 600px;
-    text-align:left;
-    justify-content:left;
+    max-width: 100%;
+    height: auto; /* Allow the disc image to scale based on the screen size */
   }
 
   .testing {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 200px;
-    width: 600px;
-    grid-template-rows: 500px;
-    grid-template-columns: 400px 550px 400px;
+    display: grid;
+    grid-template-rows: 1fr; /* Use relative height (1fr) to adapt to content */
+    grid-template-columns: 1fr; /* Use a single column for phones */
+    gap: 20px; /* Add some gap between elements */
+    padding: 20px; /* Add padding for better spacing */
+    text-align: center; /* Center elements horizontally */
+    align-items: center; /* Center elements vertically */
+  }
+
+  h1 {
+    width: 100%; /* Set the width to 100% for responsiveness */
+    font-size: 58px; /* Adjust font size for phones */
   }
 
   .orderbutton {
-    outline: none;
-    cursor: pointer;
-    line-height: 1;
-    border-radius: 500px;
-    transition-property: background-color, border-color, color, box-shadow,
-      filter;
-    transition-duration: 0.3s;
-    border: 1px solid transparent;
-    border-radius: 30px;
-    text-transform: uppercase;
-    white-space: normal;
-    font-weight: 700;
-    padding: 17px 48px;
-    color: #fff;
-    background-color: #f01a1a;
-    :hover {
-      transform: scale(1.04);
-      background-color: #c514e4;
-    }
+    margin-top: 10px; /* Reduce the top margin for phones */
+    width: 100%; /* Set the button width to 100% for phones */
   }
 }
