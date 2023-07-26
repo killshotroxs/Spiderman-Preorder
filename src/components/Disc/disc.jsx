@@ -1,15 +1,18 @@
 import "./disc.css";
+import DISCIMAGE from "./discimage.png";
 
 const Disc = () => {
   const handleButtonClick = () => {
     window.location.reload(); // Reload the page when the button is clicked
   };
 
+  // <img src="image.png" onError="this.onerror=null; this.src='/images/noimage.gif';" />
+
   return (
     <div className="testing">
       <img
         className="disc"
-        src="../../../images/discimage.png"
+        src={DISCIMAGE}
         alt="Disc Image"
       />
       <h1>

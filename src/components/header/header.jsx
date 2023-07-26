@@ -1,4 +1,5 @@
 import "./header.css";
+import logoimage from "./logo.png"
 
 const Header = () => {
   const handleLogoClick = () => {
@@ -21,7 +22,7 @@ const Header = () => {
     <div className="main-container">
       <img
         className="logo"
-        src="../../../images/logo.png" 
+        src={ logoimage } 
         onClick={handleLogoClick}
       />
       <div className="header-container">
