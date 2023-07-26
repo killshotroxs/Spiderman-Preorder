@@ -74,6 +74,7 @@ h1 {
 
   .orderbutton {
     margin-top: 10px; /* Reduce the top margin for phones */
-    width: 100%; /* Set the button width to 100% for phones */
+    width: 90%; /* Set the button width to 100% for phones */
+    margin-right: 10px;
   }
 }
