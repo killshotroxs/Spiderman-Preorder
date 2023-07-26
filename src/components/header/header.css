@@ -1,42 +1,53 @@
+/* header.css */
 .main-container {
-  display: grid;
-  grid-template-rows: 90px ;
-  grid-template-columns: 300px 1200px;
+  display: flex;
+  align-items: center;
+  background-color: inherit;
+  padding: 10px;
+}
+
+.pricing {
+  color: red; /* You can change this to any color you prefer */
+  cursor: pointer;
 }
 
 .logo {
-  width: 300px;
-  height: 90px;
-  background: url(../../../public/images/logo.png),
-    lightgray 50% / cover no-repeat;
-  mix-blend-mode: multiply;
+  cursor: pointer;
+  height: 80px;
+  width: 250px; /* Set the initial width for the logo */
+  background: lightgray 50% / cover no-repeat;
+mix-blend-mode: multiply;
 }
 
 .header-container {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  vertical-align: top;
-  margin: 0;
-  gap: 51px;
-  color: #000;
-  font-family: Inter;
-  font-size: 39.92px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin-top: 0px;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  margin: auto;
+  font-size: 35px;
 }
 
-h3 {
-  margin-right: 10px;
-}
+/* Add media query for phones */
+@media only screen and (max-width: 600px) {
+  .main-container {
+    flex-direction: column;
+    padding: 15px;
+  }
 
-.pricing{
-    color: #F41C1C;
-font-family: Inter;
-font-size: 55.92px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+
+
+  .logo {
+    height: 80;
+    width: 160px; /* Adjust the logo size for smaller screens */
+    margin-bottom: 10px;
+    background: url(./logo.png), lightgray 50% / cover no-repeat;
+    mix-blend-mode: multiply;
+  }
+
+  .header-container {
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+  }
 }

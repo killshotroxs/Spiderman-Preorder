@@ -5,7 +5,7 @@
 
 .testing {
   display: grid;
-  grid-template-rows: 500px ;
+  grid-template-rows: 500px;
   grid-template-columns: 550px 550px 400px;
 }
 
@@ -25,31 +25,67 @@ h1 {
 }
 
 .orderbutton {
-   
-    margin-top: 300px;
+  margin-top: 300px;
+  outline: none;
+  cursor: pointer;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 17px 48px;
+  color: #fff;
+  background-color: #f01a1a;
+  height: 72px;
+  width: 180px;
+  :hover {
+    transform: scale(1.04);
+    background-color: #c514e4;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Open+Sans:wght@300&family=Roboto:wght@400;700&display=swap");
+
+@media only screen and (max-width: 767px) {
+  .disc {
+    max-width: 550px;
+    height: 600px;
+  }
+
+  .testing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 200px;
+    grid-template-rows: 500px;
+    grid-template-columns: 600px 550px 400px;
+  }
+
+  .orderbutton {
     outline: none;
     cursor: pointer;
     line-height: 1;
     border-radius: 500px;
-    transition-property: background-color,border-color,color,box-shadow,filter;
-    transition-duration: .3s;
+    transition-property: background-color, border-color, color, box-shadow,
+      filter;
+    transition-duration: 0.3s;
     border: 1px solid transparent;
     border-radius: 30px;
     text-transform: uppercase;
     white-space: normal;
     font-weight: 700;
-    text-align: center;
     padding: 17px 48px;
     color: #fff;
     background-color: #f01a1a;
-    height: 72px;
-    width: 180px;
-    :hover{
-        transform: scale(1.04);
-        background-color: #c514e4;
+    :hover {
+      transform: scale(1.04);
+      background-color: #c514e4;
     }
-
   }
-  
-
-@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Open+Sans:wght@300&family=Roboto:wght@400;700&display=swap");
+}
