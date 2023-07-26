@@ -53,8 +53,10 @@ h1 {
 
 @media only screen and (max-width: 767px) {
   .disc {
-    max-width: 550px;
+    max-width: fit-content;
     height: 600px;
+    text-align:left;
+    justify-content:left;
   }
 
   .testing {
@@ -63,8 +65,9 @@ h1 {
     justify-content: center;
     text-align: center;
     margin-bottom: 200px;
+    width: 600px;
     grid-template-rows: 500px;
-    grid-template-columns: 600px 550px 400px;
+    grid-template-columns: 400px 550px 400px;
   }
 
   .orderbutton {

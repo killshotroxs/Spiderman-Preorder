@@ -21,7 +21,7 @@ const Disc = () => {
         <br></br>
         <br></br>
         Be <span style={{ color: "red" }}>Greater.</span>
-        <span style={{ color: "#4DBA86", fontSize: "120px" }}> Together.</span>
+        <span style={{ color: "#4DBA86", fontSize: "95px" }}> Together.</span>
       </h1>
       <div>
         <button className="orderbutton" onClick={handleButtonClick}>
