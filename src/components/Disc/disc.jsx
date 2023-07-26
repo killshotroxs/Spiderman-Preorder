@@ -9,7 +9,7 @@ const Disc = () => {
     <div className="testing">
       <img
         className="disc"
-        src="../../../public/images/discimage.png"
+        src="../../../images/discimage.png"
         alt="Disc Image"
       />
       <h1>
